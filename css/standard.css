@@ -1,0 +1,10 @@
+/* Style Sheet for standard pages
+*/
+
+body {
+	font-family: "Verdana", Geneva, sans-serif
+}
+
+.page-header {
+	text-align:center;
+}
