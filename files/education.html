@@ -5,15 +5,25 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Keith Yoerg's Portfolio</title>
+		<title>Keith Yoerg's Education</title>
 		
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/standard.css">
+		<link rel="icon" href="../images/Keith.png">
 	</head>
 
 	<style type="text/css">
 		#small{
 			font-size: 65%;
+		}
+		
+		#panels{
+			text-align: center;
+		}
+		
+		#courses{
+			list-style-type: square;
+			font-size: 125%;
 		}
 	</style>
 	
@@ -60,22 +70,22 @@
 	<div class="container-fluid">
 		<div class="page-header">
 			<div class="row">
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<figure>
 						<img src="../images/SC_seal.jpg"
 						alt="The Seal of USC" width="125" height="125">
 					</figure>
 				</div>
-				<div class="col-sm-8" style="margin-top: -10px; font-variant: small-caps;">
+				<div class="col-sm-6" style="margin-top: -10px; font-variant: small-caps;">
 					<h1>B.S. <span id="small">in</span> Astronautical Engineering</h1>
 					<h2><span id="small">from the</span>
 					<a href="http://www.usc.edu" target="_blank">University of Southern California </a></h2>
 					<h3>Conferred May 13<sup>th</sup>, 2016</h3>
 				</div>
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<figure>
-						<img src="../images/sc_trojans.jpg" style="margin: 10px;"
-						alt="The logo of USC" width="100" height="100">
+						<img src="../images/sc_trojans.jpg" style="margin-top: 10px;"
+						alt="The logo of USC" width="125" height="100">
 					</figure>
 				</div>
 			</div>
@@ -84,7 +94,62 @@
 	
 	<!-- Main Content -->
 	<div class="container-fluid">
-		<h1>Classes</h1>
+		<h1 style="text-align: center;">Overview of Coursework</h1>
+		<br>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 id="panels">Mechanical/Aerospace Courses</h3>
+					</div>
+					<div class="panel-body">
+						<ul id="courses">
+							<li>AME-150: Intro to Computational Methods (MATLAB)</li>
+							<li>AME-201: Statics</li>
+							<li>AME-204: Strength of Materials</li>
+							<li>AME-301: Dynamics</li>
+							<li>AME-308: Computer-Aided Analyses for Aero-Mechanical Design (SolidWorks)</li> 
+							<li>AME-309: Dynamics of Fluids</li>
+							<li>AME-310: Thermodynamics</li>
+							<li>AME-341A&B: Mechoptronics Laboratory</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 id="panels">Astronautics Courses</h3>
+					</div>
+					<div class="panel-body">
+						<ul id="courses">
+							<li>ASTE-280/330: Astronautics & Space Environment I & II</li>
+							<li>ASTE-421: Space Mission Design</li>
+							<li>ASTE-470: Spacecraft Propulsion</li>
+							<li>ASTE-480: Spacecraft Dynamics</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 id="panels">Other Relavent Courses</h3>
+					</div>
+					<div class="panel-body">
+						<ul id="courses">
+							<li>PHYS-161: Honors Mechanics & Thermodynamics</li>
+							<li>PHYS-162: Honors Electricity & Magnetsim</li>
+							<li>PHYS-163: Honors Optics & Modern Physics</li>
+							<li>MATH-226: Differential Equations</li>
+							<li>BUAD-301: Technical Entrepreneurship </li> 
+							<li>ISE-382: Database Systems: Concepts, Design and Implementation (MySQL & Oracle)</li>
+							<li>ISE-460: Engineering Economy</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- Footer -->
