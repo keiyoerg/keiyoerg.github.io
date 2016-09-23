@@ -10,10 +10,12 @@ body {
 	font-family: "Verdana", Geneva, sans-serif;
 	margin-bottom: 30px;
 	padding-top: 30px;
+	background: rgba(210, 210, 210, 1);
 }
 
 .page-header {
 	text-align:center;
+	background-color: rgba(237,237,237,1);
 }
 
 .title{

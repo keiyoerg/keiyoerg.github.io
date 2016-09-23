@@ -17,9 +17,9 @@ body {
 }
 
 .text-box{
+	background: rgba(250, 250, 250, 0.7);
 	text-shadow: 1px 1px #ffffff;
 	color: #000000;
-	background: rgba(230, 230, 230, 0.8);
 	height: 100%;
 	margin-bottom: 15px;
 }
