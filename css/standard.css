@@ -31,12 +31,16 @@ body {
 	color: #000000;
 }
 
-.title{
-	text-transform: uppercase;
-	text-align: center;
+.bullets{
+	list-style-type: square;
+	font-size: 125%;
 }
 
-.company{
+.bull_space{
+	margin-bottom: 20px;
+}
+
+.center{
 	text-align: center;
 }
 
