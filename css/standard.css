@@ -15,7 +15,12 @@ body {
 
 .page-header {
 	text-align:center;
+	font-variant: small-caps;
 	background-color: rgba(237,237,237,1);
+}
+
+#small{
+	font-size: 65%;
 }
 
 .panel > .panel-heading{

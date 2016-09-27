@@ -1,0 +1,27 @@
+/* Style Sheet for carousel pages
+*/
+
+.carousel{
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.carousel .item{
+	height: 500px;
+	background: rgba(210, 210, 210, 1);
+}
+
+.carousel-inner > .item > img {
+	position: relative;
+	margin:auto;
+	height: 500px;
+	object-fit: contain;
+}
+
+.carousel-indicators li{
+	background-color: #666666;
+}
+
+.carousel-indicators .active{
+	background-color: #222222;
+}
