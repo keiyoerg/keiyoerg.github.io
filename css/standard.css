@@ -23,6 +23,19 @@ body {
 	font-size: 65%;
 }
 
+#title{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#fit{
+	width: 100%;
+}
+
+#center{
+	text-align: center;
+}
+
 .panel > .panel-heading{
 	background-image: none;
 	background-color: #222222;

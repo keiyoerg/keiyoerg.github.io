@@ -13,10 +13,7 @@
 	</head>
 
 	<style type="text/css">
-		#title{
-			text-transform: uppercase;
-			text-align: center;
-		}
+
 	</style>
 	
 	<body>
@@ -46,7 +43,15 @@
 							<li><a href="resume.pdf">Resume as .pdf</a></li>
 						</ul>
 					</li>
-					<li><a href="projects.html">Projects</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown"
+						href="projects.html">Projects
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="academic_proj.html">Academic</a></li>
+							<li><a href="personal_proj.html">Personal</a></li>
+						</ul>
+					</li>
 					<li><a href="fam_history.html">Family History</a></li>
 					<li><a href="hobbies.html">Other Interests</a></li>
 				</ul>
@@ -83,12 +88,13 @@
 		<div class="row">
 			<div class="col-sm-4 col-sm-push-4">
 				<div class="panel panel-default">
-					<div class="panel-heading">
+					<div class="panel-heading" id="center">
 						<h3 id="title">Research Associate</h3>
 						<img class="center-block" src="../images/viterbi.png" alt="USC Viterbi School Logo">
-						<h4 class="center"><a href="http://www.isi.edu/centers/serc/cellularized_spacecraft"
-						target="blank">USC Space Engineering Research Center</a></h4>
-						<h5 class="center">February 2016 - May 2016</h5>
+						<h4><a href="http://www.isi.edu/centers/serc/cellularized_spacecraft"
+						target="blank" data-toggle="tooltip" title="www.isi.edu">
+						USC Space Engineering Research Center</a></h4>
+						<h5>February 2016 - May 2016</h5>
 					</div>
 					<div class="panel-body">
 						<ul class="bullets">
@@ -102,12 +108,12 @@
 			</div>
 			<div class="col-sm-4 col-sm-pull-4">
 				<div class="panel panel-default">
-					<div class="panel-heading">
+					<div class="panel-heading" id="center">
 						<h3 id="title">Intern</h3>
 						<img class="center-block" src="../images/atk.png" alt="ATK Logo">
-						<h4 class="center"><a href="https://www.orbitalatk.com/defense-systems/armament-systems/"
-						target="blank">ATK Advanced Weapons</a></h4>
-						<h5 class="center">May 2009 - August 2009</h5>
+						<h4><a href="https://www.orbitalatk.com/defense-systems/armament-systems/"
+						target="blank" data-toggle="tooltip" title="www.orbitalatk.com">ATK Advanced Weapons</a></h4>
+						<h5>May 2009 - August 2009</h5>
 					</div>
 					<div class="panel-body">
 						<ul class="bullets">
@@ -123,12 +129,12 @@
 			</div>
 			<div class="col-sm-4">
 				<div class="panel panel-default">
-					<div class="panel-heading">
+					<div class="panel-heading" id="center">
 						<h3 id="title">Office Manager</h3>
 						<img class="center-block" src="../images/acb.png" alt="USC Viterbi School">
-						<h4 class="center"><a href="http://www.acbdances.com/"
-						target="blank">American Contemporary Ballet</a></h4>
-						<h5 class="center">June 2014 - July 2015</h5>
+						<h4><a href="http://www.acbdances.com/" target="blank" data-toggle="tooltip"
+						title="www.acbdances.com">American Contemporary Ballet</a></h4>
+						<h5>June 2014 - July 2015</h5>
 					</div>
 					<div class="panel-body">
 						<ul class="bullets">
