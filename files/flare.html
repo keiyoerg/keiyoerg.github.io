@@ -17,7 +17,10 @@
 	#indented{
 		text-indent: 15px;
 		}
-
+	div.thirdwidth{
+		width: 90%;
+		margin: auto;
+	}
 	</style>
 	
 	<body>
@@ -42,24 +45,34 @@
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="professional.html">Professional Experience</a></li>
-							<li><a id="indented" href="acoustics.html">Acoustics</a></li>
 							<li><a href="education.html">Education</a></li>
+							<li><a href="academic_proj.html">Academic Projects</a></li>
 							<li><a href="skills.html">Certifications & Skills</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown"
-						href="projects.html">Projects
-						<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="personal_proj.html">Personal</a></li>
-							<li id="indented" class="active"><a href="#">FLARE Rocketry Program</a></li>
-							<li><a href="academic_proj.html">Academic</a></li>
+							<li><a href="resume.pdf">Resume as .pdf</a></li>
 						</ul>
 					</li>
 					<li><a href="fam_history.html">Family History</a></li>
-					<li><a href="hobbies.html">Hobbies</a></li>
-					<li><a href="resume.pdf">Resume as .pdf</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown"
+						href="rocketry.html">Rocketry
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="hpr.html">High Power Solids</a></li>
+							<li><a href="liquid_rockets.html">Liquid Engines</a></li>
+							<li class="active"><a href="#">Education & Outreach</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" 
+						href="hobbies.html">Other Interests
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="hobbies.html#3DPrint">3D Printing</a></li>
+							<li><a href="hobbies.html#Scuba">Scuba Diving</a></li>
+							<li><a href="hobbies.html#USCBand">USC Band</a></li>
+							<li><a href="hobbies.html#Homebrew">Brewing Beer</a></li>
+						</ul>
+					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span>
@@ -74,13 +87,13 @@
 		<div class="page-header">
 			<h1 style="padding-top: 15px;">Future Leaders of Advanced Rocket Engineering</h1>
 		</div>
-		<div 
 		<figure>
 			<img src="../images/flare_logo.jpg"
 			alt="FLARE logo" width="275" height="175" style="margin-left: auto; margin-right: auto; 
 			display: block; padding-bottom: 15px;">
 		</figure>
 		<div class="container-fluid">
+			<div class="thirdwidth">
 			<p>In 2016 I was introduced to a local non-profit organization called <a href="http://www.tamuseum.org/"
 			target="_blank" data-toggle="tooltip" title="www.tamuseum.org">Tomorrow's Aeronautical Museum</a> 
 			(TAM) at the Compton airport. I loved TAM's mission to support the education of inner city kids, 
@@ -90,10 +103,14 @@
 			construction, and flight of rockets to teach students the skills necessary to pursue a STEM degree 
 			and career.</p>
 			
-			<p>At least twice a week I visit TAM to teach classes. To cater to different learning levels, I have 
-			developed curricula for multiple age groups:
+			<p>At least once a week I visit TAM to teach classes. Program partners have included 
+			the University of Southern Californa, the <a href="http://www.rrs.org/"
+			target="_blank" data-toggle="tooltip" title="www.rrs.org">Reaction Research Society</a>,
+			and the <a href="http://www.rocstock.org/" target="_blank" data-toggle="tooltip" 
+			title="www.rocstock.org">Rocketry Organization of California</a>. To cater to 
+			different learning levels, I have developed curricula for multiple age groups:
 			</p>
-			
+			</div>
 			<ul style="text-align: center; width: 95%; list-style-type: none;">
 				<li> <a href="#elementary">Elementary School</a></li>
 				<li> <a href="#middle">Middle School</a></li>
@@ -109,7 +126,7 @@
 		<hr class="featurette-divider" id="elementary">
 		<div class="row featurette">
 			<div class="col-md-7">
-				<h2 class="featurette-heading">Elementary Curriculum (K-6)</h2>
+				<h2 class="featurette-heading">Elementary Curriculum</h2>
 				<p class="lead">Rocketry Basics</p>
 				<p>Rocketry classes for kids grades K-6 are focused on fun. 
 				Every class includes time playing <a href="https://kerbalspaceprogram.com/en/" 
@@ -118,8 +135,8 @@
 				center of mass and center of pressure are crucial to creating a successful rocket in the game.</p>
 				<p>Instruction time focuses on how knowledge of STEM ideas such as the scientific method and 
 				Newton's Laws can improve rocket designs in the Kerbal video game. Alka-seltzer rockets and other 
-				demonstrations are used to keep students engaged and discuss scientific principles.</p>
-				<p>The capstone of each K-6 program is building and flying Estes model rockets, which the kids 
+				demonstrations are used to keep students engaged and discuss scientific principles.
+				The capstone of each K-6 program is building and flying Estes model rockets, which the kids 
 				get to keep (assuming it survives the maiden voyage)!</p>
 			</div>
 
@@ -134,25 +151,24 @@
 			<div class="col-md-7 col-md-push-5">
 				<h2 class="featurette-heading">Middle School Curriculum</h2>
 				<p class="lead">Tripoli Rocketry Association Junior Membership</p>
-				<p>I established the FLARE (<i>Future Leaders of Advanced Rocket Engineering</i>) program
-				at the Compton airport, which teaches STEM skills to multiple age groups of at risk youth.
-				I visit the airport twice a week for about 3 hours to teach the kids and develop curricula.
-				The classes are guided by what the students show the most interest in, however in general
-				classes consist of the following:
-				at least once a week to teach kids ages 8 - 16 about the basics 
-				of rocketry and space travel. Topics range from Newton's Laws to the makeup of our Solar System 
-				and any other technical topic the students have questions about.</p>
-				<p>The lectures and discussions are balanced out with hands-on demonstrations of the principals covered.
-				These demos include alka-seltzer "rockets", building and flying Estes model rockets, and use of the
-				<a href="https://kerbalspaceprogram.com/en/" target="_blank" data-toggle="tooltip" title="kerbalspaceprogram.com">
-				Kerbal Space Program</a> video game to inspire the kids and make the topics more accessable.</p>
+				<p>Middle school aged rocket classes take things up a notch, both in the size
+				of the rocket and the motors that go in them! Time is split between the classroom
+				and the rocket lab, with a focus on safety and acting with intentionality.
+				Class begins with discussion of any rocket or space news, followed by watching
+				videos of rocket construction and discussing the techniques displayed. After a 
+				safety briefing, class is moved to the lab area.</p>
+				<p>Time in the lab is focused on safety, tool identification and use, and 
+				construction of a high power solid rocket. Tools include epoxy, sandpaper, 
+				power drills, and rotory tools. Students of the proper age with 
+				parent or guardian approval are enrolled in the 
+				<a href="http://www.tripoli.org/TMP" target="_blank" data-toggle="tooltip" title="tripoli.org">
+				Tripoli Mentoring Program</a>. Upon successful completion of an exam and
+				construction of a high power rocket, students can earn their Junior Level 1
+				certification, allowing them to access restricted launchpad areas.</p>
 			</div>
 			<div class="col-md-5 col-md-pull-7">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video controls allowfullscreen>
-						<source src="../images/Launch.mp4" type="video/mp4" autoplay="0">
-					</video>
-				</div>
+				<img class="featurette-image img-responsive center-block" src="../images/middle_school_class.JPG"
+				alt="Keith teaches a middle school class">
 			</div>
 		</div>
 		
@@ -161,15 +177,18 @@
 			<div class="col-md-7">
 				<h2 class="featurette-heading">High School Curriculum</h2>
 				<p class="lead">Rocket Design and Advanced Topics</p>
-				<p>This website was built to serve 2 purposes:
-				<ul>
-					<li>Showcase my achievements and interests to friends and potential employers.</li>
-					<li>Build my skills as a web developer.</li>
-				</ul></p>
-				<p>Before this project I had very minimal experience with HTML, and absolutely no familiarity 
-				with Bootstrap. Each page I created had a new problem to tackle, and in turn equipped me with 
-				new skills. I'm pleased with this end result and excited to update the capabilities as I continue
-				to learn more web development.</p>
+				<p>The high school coursework is a continuation of the previous levels. New 
+				students are encouraged to start by building an Estes model rocket and 
+				then enrolling in the Tripoli Mentoring Program. Like the middle school 
+				course, time is split between the classroom and the lab. Classroom time 
+				focuses on software that can aid in rocket design and construction. 
+				Courses include SolidWorks 3D modeling, intro to Arduinos and Raspberry Pi 
+				programming, and flight simulations in OpenRocket.</p>
+				<p>Lab time focuses on increased experience safely using more complicated 
+				tools such as the drill press and 3D printers. Students are encouraged to 
+				pursue interests in building and making whatever they like, and those who 
+				are interested design and build their own rockets from scratch. Properly 
+				constructed rockets can be flown in the desert on a high power motor.</p>
 			</div>
 			<div class="col-md-5">
 				<img class="featurette-image img-responsive center-block" src="../images/high_school_kids.JPG"
@@ -182,18 +201,15 @@
 			<div class="col-md-7 col-md-push-5">
 				<h2 class="featurette-heading">Collegiate Curriculum</h2>
 				<p class="lead">High Power Certification and Personal Projects</p>
-				<p>I established the FLARE (<i>Future Leaders of Advanced Rocket Engineering</i>) program
-				at the Compton airport, which teaches STEM skills to multiple age groups of at risk youth.
-				I visit the airport twice a week for about 3 hours to teach the kids and develop curricula.
-				The classes are guided by what the students show the most interest in, however in general
-				classes consist of the following:
-				at least once a week to teach kids ages 8 - 16 about the basics 
-				of rocketry and space travel. Topics range from Newton's Laws to the makeup of our Solar System 
-				and any other technical topic the students have questions about.</p>
-				<p>The lectures and discussions are balanced out with hands-on demonstrations of the principals covered.
-				These demos include alka-seltzer "rockets", building and flying Estes model rockets, and use of the
-				<a href="https://kerbalspaceprogram.com/en/" target="_blank" data-toggle="tooltip" title="kerbalspaceprogram.com">
-				Kerbal Space Program</a> video game to inspire the kids and make the topics more accessable.</p>
+				<p>Once age 18, students are encouraged to build and fly a high power rocket
+				to earn a Level 1 certification through the Tripoli Rocketry Association 
+				or National Association of Rocketry. Successful students can move on to 
+				earn a Level 2 & 3 certification to continue launching bigger rockets and 
+				motors. Interested students can join groups like the Reaction Research 
+				Society to explore liquid rocketry.</p>
+				<p>Those who have interests outside of rocketry are encouraged to explore 
+				those as well! In the past students have 3D Printed a chess board, programmed 
+				a text video game, and built small robots to name just a few projects.</p>
 			</div>
 			<div class="col-md-5 col-md-pull-7">
 				<img class="featurette-image img-responsive center-block" src="../images/college.JPG"
@@ -211,7 +227,7 @@
 	<!-- Footer -->
 	<footer class="footer">
 		<div>
-			<p>&#169; 2016 Keith Yoerg</p>
+			<p>&#169; 2020 Keith Yoerg</p>
 		</div>
 	</footer>
 	
