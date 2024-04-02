@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>The HAWK Launch Log</title>
+		<title>HAWK Flight 2 Report</title>
 		
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/standard.css">
@@ -56,7 +56,7 @@
 									<a href="charlie_horse.html">Charlie Horse</a>
 								</li>
 								<li class="active" style="padding-left: 15px">
-									<a href="#">The HAWK</a>
+									<a href="hawk_log.html">The HAWK</a>
 								</li>
 								<li style="padding-left: 15px">
 									<a href="flightOn_log.html">Flight On!</a>
@@ -90,38 +90,79 @@
 	<!-- Header -->
 	<div class="container-fluid" id="top">
 		<div class="page-header">
-			<h1 style="padding-top: 15px;">The HAWK Log</h1>
+			<div class="row">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-lg btn-info" href="hwk_f1.html" role="button">Previous</a>
+				</div>
+				<div class="col-sm-4">
+					<h1 style="margin-top: 5px; margin-bottom: 5px">HAWK Flight 2</h1>
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-lg btn-info" href="hwk_f1.html" role="button">Next</a>
+				</div>
+				<div class="col-sm-2">
+				</div>
+			</div>
 		</div>
 	</div>
 	
+	<!-- Report "Featurette" Section -->
+	<div class="container marketing">
+		<hr class="featurette-divider" id="Report">
+		<h2 class="featurette-heading">Report</h2>
+		<p class="lead">7,851 ft | Mach 0.7</p>
+		<div class="row featurette">
+			<div class="col-md-5 col-md-push-7">
+				<img class="featurette-image img-responsive center-block" 
+					style="padding-bottom: 20px"
+					src="../images/hpr_rockets/hawk/Flight2/HWK_F2_plot.png"
+					alt="Plot of launch 2 data">
+				<p></p>
+			</div>
+			<div class="col-md-7 col-md-pull-5">
+			<p><p/>
+				<p>Flight #2 of the X2 was conducted at the ROC <a href="https://rocstock.org/" target="_blank">Lucerne Dry Lake</a> 
+				launch site. The launch was documented by a cell phone video from the spectator area. A pad-side Go Pro video camera 
+				had been staged but it ran out of batteries before the launch took place. The launch took place during the Tripoli 
+				LDRS 40 event hosted by ROC, where an ice cream truck even made an appearance!</p>
+				<p>The payload bay carried a Missileworks RRC3 dual deployment flight computer, which performed as expected and 
+				without issues.</p>
+				<p>The flight was a success! The rocket was recovered without any damage. This was my first high-power launch of 
+				the LDRS 40 event, with the 15th flight of <a href="CH_f15.html">Charlie Horse</a> happening the day after.</p>
+			</div>
+		</div>
+		<hr class="featurette-divider">
+	</div>
+	
 	<!-- Carousel -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-		</ol>
+	<div class="container marketing"  id="Photos">
+		<h2 class="featurette-heading">Photos & Video</h2>
+	</div>
+	<div id="myCarousel" class="carousel slide" data-interval="false">
 		<!-- Carousel Items -->
 		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img class="first-slide" src="../images/hpr_rockets/hawk/Flight1/HWK_F1_pad.gif" alt="Launch 1 GIF">
-				<div class="container">
-					<div class="carousel-caption">
-						<p><a class="btn btn-lg btn-info" href="hwk_f1.html" role="button">Flight 1</a></p>
+			<div class="item active" style="max-width: 70%; margin: 0 auto; top: 50%">
+				<div style="max-width:900px; margin: 0 auto">
+					<div class="embed-responsive embed-responsive-16by9">
+					<video controls allowfullscreen>
+						<source src="../images/hpr_rockets/X2/Flight2/X2_F2_spectator.mp4">
+					</video>
 					</div>
 				</div>
 			</div>
 			<div class="item">
-				<img class="second-slide" src="../images/hpr_rockets/hawk/Flight2/HWK_F2_photo4.png" alt="Launch 2 photo">
-				<div class="container">
-					<div class="carousel-caption">
-						<p><a class="btn btn-lg btn-info" href="hwk_f2.html" role="button">Flight 2</a></p>
-					</div>
-				</div>
+				<img class="second-slide" src="../images/hpr_rockets/X2/Flight2/X2_F2_photo1.jpg" 
+					alt="Photo of Keith with X2 before the launch">
+			</div>
+			<div class="item">
+				<img class="third-slide" src="../images/hpr_rockets/X2/Flight2/X2_F2_photo2.jpg" 
+					alt="Photo of X2 in flight">
 			</div>
 		</div>
-			
-	  <!-- Left/Right Controls -->
+		
+		<!-- Left/Right Controls -->
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
@@ -130,66 +171,6 @@
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-	</div>
-	
-	<!-- "Featurette" Section -->
-	<div class="container marketing">
-		<hr class="featurette-divider" id="Charlie">
-		<h3 class="featurette-heading">The HAWK's Story</h2>
-		<p>The HAWK, standing at 14-feet tall and 8-inches in diameter is the largest rocket 
-		I have built to date. Honoring Aviation, the Wrights, and Kinetics the "H.A.W.K." 
-		was constructed in 2021 from a <a href="https://wildmanrocketry.com/products/jumbo-dark-star"
-		target="_blank">Wildman Jumbo Dark Star</a> kit. It is my first (and currently only) rocket 
-		that flies on a massive 98-mm motor. After an initial launch in late November 2021 to work out 
-		the logistics of how to launch such a massive rocket, the HAWK was used for a symbolic 
-		launch on December 17, 2021: the 118th anniversary of the first powered, heavier-than-air 
-		flight in a manned aircraft conducted by my great-great granduncles <a href=
-		"fam_history.html#Wright">Orville & Wilbur Wright</a>.</p>
-		<p>That day, during flight #2, the HAWK carried a few small pieces of fabric that 
-		had originally covered the 1903 Wright Flyer during its historic first flight and 
-		remained in the family. My mother, another Wright descendent, traveled from Minnesota 
-		to witness the launch. I commemorated the launch with a video available to view on my 
-		<a href="https://youtu.be/_-L5IM-X6AO?si=ofWvhM7_qklaBzMg" target="_blank">Youtube 
-		channel</a>.</p>
-		<p>More details from each flight including data plots, photos, and videos are available 
-		in the links below. A description and photos of each flight can be accessed by clicking on 
-		the links in the Launch # column below.</p>
-		<p class="lead"></p>
-		<div class="row featurette">
-			<div class="table-responsive">
-			<table class="table">
-				<thead>
-				<tr>
-				  <th scope="col">Launch #</th>
-				  <th scope="col">Date</th>
-				  <th scope="col">Motor</th>
-				  <th scope="col">Location</th>
-				  <th scope="col">Max Alt (ft)</th>
-				  <th scope="col">Mach</th>
-				</tr>
-				</thead>
-				<tbody>
-				<tr>
-				  <th scope="row"><a href="hwk_f2.html">2</a></th>
-				  <td>12/17/2021</td>
-				  <td>CTI N2600-Skid</td>
-				  <td><a href="http://www.rrs.org/facilities/" target="_blank">MTA</a></td>
-				  <td>7,851</td>
-				  <td>0.7</td>
-				</tr>
-				<tr>
-				  <th scope="row"><a href="hwk_f1.html">1</a></th>
-				  <td>11/28/2021</td>
-				  <td>CTI M1790-Skid</td>
-				  <td><a href="http://www.rrs.org/facilities/" target="_blank">MTA</a></td>
-				  <td>4,846</td>
-				  <td>0.5</td>
-				</tr>
-				</tbody>
-			</table>
-			</div>
-		</div>
-		<hr class="featurette-divider">
 	</div>
 	
 	<!-- Return to Top -->
